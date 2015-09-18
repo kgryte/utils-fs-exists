@@ -34,7 +34,7 @@ function done( bool ) {
 }
 ```
 
-The above callback signature matches the now __deprecated__ [`fs.exists()`](https://nodejs.org/api/fs.html#fs_fs_exists_path_callback) API. The function also accepts the more conventional `error`-first style callback signature found in most Node asynchronous APIs.
+The above callback signature matches the now __deprecated__ [`fs.exists()`](https://nodejs.org/api/fs.html#fs_fs_exists_path_callback) API. The function also accepts the more conventional `error`-first style callback signature found in most asynchronous Node APIs.
 
 ``` javascript
 exists( __dirname, done );
