@@ -104,7 +104,7 @@ var bool = exists.sync( __dirname );
 		console.log( 'Don\'t overwrite the file!' );
 	} else {
 		fs.writeFileSync( file, 'beep', {
-		'encoding': 'utf8'
+			'encoding': 'utf8'
 		});
 	}
 	```
